@@ -1,1 +1,25 @@
-
+{
+  "name": "mcp-server",
+  "version": "1.0.0",
+  "description": "A Modern Context Protocol server for orchestrating AI agent actions.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mcp",
+    "elevenlabs",
+    "make.com",
+    "twilio",
+    "fastify"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.0",
+    "twilio": "^5.2.0"
+  }
+}
